@@ -13,8 +13,8 @@ kullanıcıdan gelen sayı negatif mi pozitif mi bul.
 
 """
 
-kodumundegiskeni = int(input("bir sayı giriniz"))
-if kodumundegiskeni<0:
+kod1 = int(input("bir sayı giriniz"))
+if kod1<0:
     print("cevap negatiftir")
 else :
     print("cevap pozitiftir")
@@ -26,9 +26,9 @@ gmail python@gmail.com olsun, parola ise 12345
 """
 
 while True :
-    salakkod = str(input("bir gmail hesabı giriniz"))
-    malkod = str(input("bir şifre giriniz"))
-    if salakkod==str("python@gmail.com") and str("12345")==malkod:
+    gmail = str(input("bir gmail hesabı giriniz"))
+    password = str(input("bir şifre giriniz"))
+    if gmail==str("python@gmail.com") and str("12345")==password:
         print("hesaba giriş yaptınız")
         exit()
     else :
